@@ -7,6 +7,7 @@
 
 ### 对接简单，异步回调，安全高效，不限行业
 
+
 ``` java
 String uid = "xxxxxxxxx";// 商户号 在商户后台查看
 		String order_id = "20210729023137U97661109";// 商户订单号
@@ -73,9 +74,12 @@ String uid = "xxxxxxxxx";// 商户号 在商户后台查看
 
 ```
 
+### 交流群：QQ：385468484
+
 ### 更多demo
 php:  
 ios:  
 android:  
+
 
 
