@@ -78,7 +78,7 @@ String uid = "xxxxxxxxx";// 商户号 在商户后台查看
 
 ### 更多demo
 php: 
-ios: (https://github.com/mailes/zhifudashi_ios_demo) 
+ios: https://github.com/mailes/zhifudashi_ios_demo  
 android:  
 
 
