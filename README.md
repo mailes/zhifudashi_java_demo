@@ -1,9 +1,9 @@
 # zhifudashi_java_demo
 支付大师java_demo版本
-# 支付大师 https://www.zhifudashi.com
+# 支付大师 http://zfds.codecocoa.com
 ## 是真正的个人免签约第三方h5支付通道聚合支付接口，云端免挂机监控，即时到账，支持小程序、网站二维码扫码收款。只需个人微信支付宝账号即可自动化收款，超稳定不漏单
 
-## 接口文档  https://docs.zhifudashi.com
+## 接口文档  http://paydocs.codecocoa.com
 
 ### 对接简单，异步回调，安全高效，不限行业
 
@@ -22,7 +22,7 @@ String uid = "xxxxxxxxx";// 商户号 在商户后台查看
 		String sign = MD5Utils.md5(order_id+order_price)+secretKey;
 		sign = MD5Utils.md5(sign);// md5签名
 	    System.out.println(sign);
-		String url = "https://www.zhifudashi/ApiOrders/createorder"; //"http://www.zhifudashi/ApiOrders/createorder";// 发起订单地址
+		String url = "http://zfds.codecocoa.com"; //"http://zfds.codecocoa.com/ApiOrders/createorder";// 发起订单地址
 		Map<String, String> paramMap = new HashMap<>();// post请求的参数
 		paramMap.put("order_id", order_id);
 		paramMap.put("order_price", order_price);
